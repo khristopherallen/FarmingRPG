@@ -8,4 +8,4 @@ COLLISION = false;
 x_frame = 0;
 y_frame = 10;
 
-char_type = s_character;
+char_type = s_skelly;
