@@ -47,6 +47,22 @@
             }
         },
         {
+            "Key": "14fba718-5d84-48e2-a45f-5bc5ead285a9",
+            "Value": {
+                "id": "0a73aa8a-64a3-46f8-8e7f-8146955bf4af",
+                "resourcePath": "sprites\\s_tile_terrain\\s_tile_terrain.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "18a4b4d4-b2df-4424-b4a8-46db859673cb",
+            "Value": {
+                "id": "963db535-c70f-48ac-b732-8af4deaeee77",
+                "resourcePath": "tilesets\\t_cottage\\t_cottage.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "192b83f8-fc4b-440b-bf02-cac1571d938c",
             "Value": {
                 "id": "938f815f-2173-46eb-a84b-b6a9b4cbea4b",
@@ -103,6 +119,22 @@
             }
         },
         {
+            "Key": "6fa03772-e478-4f7b-9f31-bf6fdb30e038",
+            "Value": {
+                "id": "a8782487-be09-41db-85d9-586479355165",
+                "resourcePath": "sprites\\s_tile_cottage\\s_tile_cottage.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7124a8b9-97bf-408d-acd7-66c19ba7161e",
+            "Value": {
+                "id": "71a5a429-a739-4484-b5cd-a9061d8f46ea",
+                "resourcePath": "tilesets\\t_terrain\\t_terrain.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "75e80676-c22e-4cfc-aa4a-907006921643",
             "Value": {
                 "id": "341e1510-6bbf-43e0-9f34-af1862814277",
@@ -130,7 +162,7 @@
             "Key": "874f865e-9cc6-4623-a249-02d72c3fc8ac",
             "Value": {
                 "id": "69d0a1ff-c316-4359-9ffb-e512724da6eb",
-                "resourcePath": "rooms\\r_main\\r_main.yy",
+                "resourcePath": "rooms\\r_0\\r_0.yy",
                 "resourceType": "GMRoom"
             }
         },
