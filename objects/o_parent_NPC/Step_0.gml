@@ -23,7 +23,7 @@ moveY = 0;
 moveX = (input_right - input_left) * spd;
 moveY = (input_down - input_up) * spd;
 
-// COLLISION CHECKS
+// COLLISION CHECKS - SOLIDS
 // Horizontal
 if (moveX != 0) {
 	if (place_meeting(x+moveX, y, o_solid)) {
@@ -43,6 +43,29 @@ if (moveY != 0) {
 			else { break; }
 		}
 		moveY = 0;
+	}
+}
+
+// COLLISION CHECKS - WATER
+// Horizontal
+if (moveX != 0) {
+	if (place_meeting(x+moveX, y, o_solid_water)) {
+		repeat (abs(moveX)) {
+			if (!place_meeting(x+sign(moveX), y, o_solid_water)) { x += sign(moveX);}
+			else { break; }
+		}
+		spd = water_spd;
+	}
+}
+
+// Vertical
+if (moveY != 0) {
+	if (place_meeting(x, y+moveY, o_solid_water)) {
+		repeat (abs(moveY)) {
+			if (!place_meeting(x, y+sign(moveY), o_solid_water)) { y += sign(moveY);}
+			else { break; }
+		}
+		spd = water_spd;
 	}
 }
 

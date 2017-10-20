@@ -16,8 +16,11 @@ if (moveX < 0) {
 	anim_length = 1;
 }
 
-// DRAW CHARACTER BASE
-draw_sprite_part(char_type, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, x-frame_size/4, y);
+// DRAW SHADOW
+draw_sprite(s_character_shadow, 0, x, y);
+
+// DRAW CHARACTER
+draw_sprite_part(char_type, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, x-32, y-60);
 
 // INCREMENT FRAME FOR ANIMATION
 x_frame += anim_speed/game_get_speed(gamespeed_fps);
