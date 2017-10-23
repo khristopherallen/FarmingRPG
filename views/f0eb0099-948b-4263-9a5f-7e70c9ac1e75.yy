@@ -6,7 +6,8 @@
     "children": [
         "092e4e8f-a130-453d-8c3e-7e8d7c17f8cf",
         "3740c94b-7973-4024-81fe-b413a86fe888",
-        "ce4dab5a-36d7-4927-b2fa-ad6574f422b1"
+        "ce4dab5a-36d7-4927-b2fa-ad6574f422b1",
+        "00183073-ae1e-45ca-a0b7-b007965cbadf"
     ],
     "filterType": "GMObject",
     "folderName": "Characters",
